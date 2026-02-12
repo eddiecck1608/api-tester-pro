@@ -333,8 +333,8 @@ async function testChat(baseUrl, apiKey, model) {
       { role: 'system', content: 'You are a helpful assistant' },
       { role: 'user', content: 'Say "API test successful" in Chinese' }
     ],
-    max_tokens: 50,
-    temperature: 0.7
+    max_tokens: 50
+    // Note: 某啲 model（如 kimi-k2.5）唔支援 temperature 參數
   });
 
   try {
