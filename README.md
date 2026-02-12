@@ -19,7 +19,7 @@
 ### 方法一：直接下載
 ```bash
 # 下載
-wget https://github.com/yourusername/api-tester/releases/download/v1.0.0/api-tester-v3.tar.gz
+wget https://github.com/eddiecck1608/api-tester/releases/download/v1.0.0/api-tester-v3.tar.gz
 
 # 解壓
 tar -xzf api-tester-v3.tar.gz
@@ -30,7 +30,7 @@ node test-api-interactive.js
 
 ### 方法二：Git Clone
 ```bash
-git clone https://github.com/yourusername/api-tester.git
+git clone https://github.com/eddiecck1608/api-tester.git
 cd api-tester
 node test-api-interactive.js
 ```
@@ -161,7 +161,7 @@ MIT License - 自由使用、修改、分享
 
 ## 🙏 鳴謝
 
-特別鳴謝 Eddie Chi 提供寶貴意見，令呢個工具更加易用。
+特別鳴謝 C3 Eddie MR_Chi 提供寶貴意見，令呢個工具更加易用。
 
 ---
 
