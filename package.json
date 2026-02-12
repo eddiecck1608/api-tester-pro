@@ -1,0 +1,37 @@
+{
+  "name": "api-tester-pro",
+  "version": "1.0.0",
+  "description": "一鍵測試 AI API 連接，專為 OpenClaw 用戶設計",
+  "main": "test-api-interactive.js",
+  "bin": {
+    "api-tester": "./test-api-interactive.js"
+  },
+  "scripts": {
+    "start": "node test-api-interactive.js",
+    "test": "echo 'Run: node test-api-interactive.js'"
+  },
+  "keywords": [
+    "api",
+    "tester",
+    "openclaw",
+    "moonshot",
+    "openrouter",
+    "perplexity",
+    "openai",
+    "cli",
+    "interactive"
+  ],
+  "author": "Eddie Chi & Edison",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/api-tester.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/api-tester/issues"
+  },
+  "homepage": "https://github.com/yourusername/api-tester#readme"
+}
