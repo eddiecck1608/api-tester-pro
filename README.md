@@ -123,8 +123,8 @@ api-tester
 
 ## 📋 系統要求
 
-- Node.js 16.0+
-- OpenClaw（選擇性，用於自動寫入 config）
+- Node.js 16.0+。（注意：測試用16都已經可以；OPENCLAW安裝需要22＋以上版本）
+- OpenClaw（選擇性，用於自動寫入 config，只適用唔於新架構，不可用於DUAL API或已設定FALLBACK情況）
 
 ## 🔧 支援 Provider
 
