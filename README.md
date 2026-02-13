@@ -14,34 +14,30 @@
 - 🎨 **中文界面**：繁體中文提示，清楚易明
 - 🔒 **本地執行**：API key 唔會上傳到任何伺服器
 
-## 📦 安裝
+## 🚀 快速開始
 
-### 方法一：直接下載
+方法1：GIT 直接執行（無需安裝）
+
 ```bash
-# 下載
-wget https://github.com/eddiecck1608/api-tester/releases/download/v1.0.0/api-tester-v3.tar.gz
+curl -fsSL https://raw.githubusercontent.com/eddiecck1608/api-tester-pro/main/test-api-interactive.js | node
 
-# 解壓
-tar -xzf api-tester-v3.tar.gz
+npx直接執行（npm）
+npx github:eddiecck1608/api-tester-pro
 
-# 執行
+方法2：GITHUB下載安裝後執行
+git clone https://github.com/eddiecck1608/api-tester-pro.git
+cd api-tester-pro
 node test-api-interactive.js
-```
 
-### 方法二：Git Clone
-```bash
-git clone https://github.com/eddiecck1608/api-tester.git
-cd api-tester
-node test-api-interactive.js
-```
+npx下載安裝後執行（npm）
+# 1. 安裝（好似普通用戶咁）
+npm install -g api-tester-pro
 
-## 🚀 使用方法
-
-```bash
-$ node test-api-interactive.js
+# 2. 執行
+api-tester
 
 ============================================================
-        API Provider 測試工具 (交互式 v3)
+        API Provider 測試工具 (PRO)
 ============================================================
 
 請選擇 Provider：
